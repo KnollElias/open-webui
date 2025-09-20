@@ -1,3 +1,22 @@
+# Menon Learning
+
+## install deps
+bun i
+
+## dev mode
+bun run dev
+
+## run node
+  docker run -d -p 3000:4433 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+
+
+
+
+
+
+
+
+
 # Open WebUI 👋
 
 ![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)
